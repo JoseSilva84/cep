@@ -10,7 +10,7 @@ cep.onkeyup = () => {
                 uf.value = resposta2.uf;
             })
             .finally(() => {
-                alert("Concluído");
+                alert("CEP encontrado com sucesso!");
             })
     }
 }
